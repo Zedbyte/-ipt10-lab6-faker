@@ -1,0 +1,20 @@
+{
+    "name": "aufccs/ipt10-lab6-faker",
+    "description": "A simple PHP project using Composer and Faker",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aufccs\\Ipt10Lab6Faker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aetrix",
+            "email": "markjeromesantos102@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}
